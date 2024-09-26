@@ -49,7 +49,7 @@ class BankAccount {
           );
           reject("Saldo tidak mencukupi.");
         }
-      }, 3000); // ini untuk menunda aktivitas selama 3 detik
+      }, 3000); // ini untuk menunda withdraw selama 3 detik
     });
   }
 }
